@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #93B48B;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: white;
+}
+#addBtn{
+    margin-top: 10px;
+    border-radius:50%;
+    border: none;
+    background: #4CAF50;
+    width:30px;
+    height:30px;
+    font-size:20px;
+    text-align:center;
+    cursor: pointer;
+}
+#container {
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background: #6c798b;
+}
+
+#selected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.item {
+  background: #BCEBCB;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  cursor: pointer; 
+  transition: background 0.2s;
+}
+
+
+.remove {
+  cursor: pointer;
+  color: red;
+}
+
+#menu {
+  border: 1px solid black;
+  background: #2d8148;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.hidden {
+  display: none;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  background: #FF0054;
+}
+
+.company-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 6px 12px;
+  margin: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+  border: none;
+  background: #BCEBCB;
+  min-width: 80px;
+  min-height: 30px;
+  box-sizing: border-box;
+}
+
+.company-card:hover {
+  background: #e0e7ff;
+}
+
+.selected-card {
+  background: #e0e0e0;
+  color: #aaa;
+  cursor: default;
+  opacity: 0.6;
+  border-style: dashed;
+}
+
+#search, #newCompany {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+#companyList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}

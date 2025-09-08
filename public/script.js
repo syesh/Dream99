@@ -12,7 +12,7 @@ fetch("/api/companies")
   .then(data => {
     companies = data;
     renderMenu(companies);
-    renderSelected(); // <-- Add this line
+    renderSelected();
   });
 
 const logoMap = {

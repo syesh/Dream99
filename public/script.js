@@ -100,7 +100,7 @@ function renderMenu(list) {
       card.classList.add("selected-card");
       card.style.pointerEvents = "none";
     } else {
-      card.ondblclick = () => addCompany(name);
+      card.onclick = () => addCompany(name);
     }
     companyList.appendChild(card);
   });
